@@ -1,14 +1,16 @@
-# Project
+<h1 align="center">
+  Project DICE: Design, Inspire, Create Everyday
+</h1>
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
 
-As the maintainer of this project, please make a few updates:
+<h4 align="center">
+   <a href="https://www.microsoft.com/en-us/research/project/reme/" target="_blank"> 🔍 Project Page</a>  | 
+   <a href="#-quick-start" target="">📖 Quick Start</a> | 
+   <a href="https://programs.sigchi.org/chi/2025/program/content/188805 " target="_blank"> 📃 Paper </a>
+</h4>
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+>Project DICE is an AI-driven creative tool designed to help designers create every day, everywhere. This project integrates core concepts of design, inspiration, and creation, providing an efficient and innovative platform for designers to explore new creative realms and enhance design quality and efficiency. Utilizing multimodal large language models, DICE generates diverse and contextually relevant design inspirations, supporting structured creative exploration.
+>
 
 ## Contributing
 
