@@ -3,11 +3,6 @@
 DICE (Directions In Creative Entanglement）</h1>
 
 <h4 align="center">
-   <a href="https://microsoft.github.io/DICE/metaphor" target="_blank" style="background: #ccc"> 😊 Live Demo</a> | 
-   <a href="https://doi.org/10.1145/3706598.3713935" target="_blank" style="background: #ccc"> 📃 Paper </a>
-</h4>
-
-<h4 align="center">
 	<a href="https://microsoft.github.io/DICE/metaphor" target=""> <img src="docs/button1.png" alt="😊 Live Demo" height="50"/></a> 
 	<span>&nbsp;</span>
 	<a href="https://doi.org/10.1145/3706598.3713935" target="_blank"> <img src="docs/button2.png" alt="📃 Paper" height="50"/> </a> 
