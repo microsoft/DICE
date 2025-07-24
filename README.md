@@ -1,33 +1,76 @@
-# Project
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+<h1 align="center">
+DICE (Directions In Creative Entanglement）</h1>
 
-As the maintainer of this project, please make a few updates:
+<h4 align="center">
+   <a href="https://microsoft.github.io/DICE/metaphor" target="_blank" style="background: #ccc"> 😊 Live Demo</a> | 
+   <a href="https://doi.org/10.1145/3706598.3713935" target="_blank" style="background: #ccc"> 📃 Paper </a>
+</h4>
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+<h4 align="center">
+	<a href="https://microsoft.github.io/DICE/metaphor" target=""> <img src="docs/button1.png" alt="😊 Live Demo" height="50"/></a> 
+	<span>&nbsp;</span>
+	<a href="https://doi.org/10.1145/3706598.3713935" target="_blank"> <img src="docs/button2.png" alt="📃 Paper" height="50"/> </a> 
+</h4>
 
-## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+## 🌟 Introduction
+Project DICE is an AI-driven creative tool designed to help designers create every day, everywhere. This project integrates core concepts of design, inspiration, and creation, providing an efficient and innovative platform for designers to explore new creative realms and enhance design quality and efficiency. Utilizing multimodal large language models, DICE generates diverse and contextually relevant design inspirations, supporting structured creative exploration. One of our key exploration paths is the use of metaphors, a widely used method in design thinking.  
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+We introduce Metaphor, a creativity support tool that connects targets (the products being designed) with sources (inspirational concepts), combining these two components to spark new design ideas. This tool is designed to help novice designers explore and develop metaphorical product concepts, offering richer inspiration and support throughout the creative process.
 
-## Trademarks
+<h3 align="center">Metaphor: A creative thinking tool in the DICE system</h3>
+<div align="center">
+<img src="docs/MetaphorUI.png" alt="A creative thinking tool in the DICE system" >
+</div>
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+## 🚀 Quick start
+
+### 🛠️ setup Backend Service
+```
+In backend folder:
+
+gunicorn productmeta_backend.asgi:application -k uvicorn.workers.UvicornWorker --workers 2 --bind 0.0.0.0:8000
+```
+
+### 🌐 Setup Frontend Service
+```
+In frontend folder:
+1. Install dependencies using npm
+npm install
+
+2. Start the development server
+npm run dev
+```
+
+
+## 👀 Metaphor Demo Presentation
+
+<div align="center">
+<img src="docs/MetaphorDemoPresentation.png" alt="Metaphor Demo Presentation" >
+</div>
+
+
+
+## 📃 Paper
+```
+@unpublished{zhou2024Metaphor,  
+	title = {Metaphor: Supporting Ideation in Metaphorical Product Design through Multimodal Large Models},  
+	author = {Zhou, Qinyi and Deng, Jie and Liu, Yu and Wang, Yun and Xia, Yan and Ou, Yang and Lu, Zhicong and Li, Scarlett and Xu, Yingqing},  
+	year = {2025},  
+	note = {Conditionally accepted to CHI 2025},  
+	selected = {true},  
+	preview = {Metaphor.png},  
+	pdf = {Metaphor_1210clear.pdf},  
+	html = {/papers/paper1/}  
+}
+```
+
+
+## 🤝 Contributing
+Project DICE is an AI-driven creative tool designed to help designers create every day, everywhere. This project integrates core concepts of design, inspiration, and creation, providing an efficient and innovative platform for designers to explore new creative realms and enhance design quality and efficiency. Utilizing multimodal large language models, DICE generates diverse and contextually relevant design inspirations, supporting structured creative exploration. One of our key exploration paths is the use of metaphors, a widely used method in design thinking.
+
+## ⚖️ Disclaimer
+Project DICE is an AI-driven creative tool designed to help designers create every day, everywhere. This project integrates core concepts of design, inspiration, and creation, providing an efficient and innovative platform for designers to explore new creative realms and enhance design quality and efficiency. Utilizing multimodal large language models, DICE generates diverse and contextually relevant design inspirations, supporting structured creative exploration. One of our key exploration paths is the use of metaphors, a widely used method in design thinking.
