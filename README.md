@@ -14,6 +14,7 @@ DICE (Directions In Creative Entanglement）</h1>
 Project DICE is an AI-driven creative tool designed to help designers create every day, everywhere. This project integrates core concepts of design, inspiration, and creation, providing an efficient and innovative platform for designers to explore new creative realms and enhance design quality and efficiency. Utilizing multimodal large language models, DICE generates diverse and contextually relevant design inspirations, supporting structured creative exploration. One of our key exploration paths is the use of metaphors, a widely used method in design thinking.  
 
 We introduce Metaphor, a creativity support tool that connects targets (the products being designed) with sources (inspirational concepts), combining these two components to spark new design ideas. This tool is designed to help novice designers explore and develop metaphorical product concepts, offering richer inspiration and support throughout the creative process.
+<br/>
 
 <h3 align="center">Metaphor: A creative thinking tool in the DICE system</h3>
 <br/>
@@ -71,6 +72,7 @@ npm run dev
 
 ## 🤝 Contributing
 Project DICE is an AI-driven creative tool designed to help designers create every day, everywhere. This project integrates core concepts of design, inspiration, and creation, providing an efficient and innovative platform for designers to explore new creative realms and enhance design quality and efficiency. Utilizing multimodal large language models, DICE generates diverse and contextually relevant design inspirations, supporting structured creative exploration. One of our key exploration paths is the use of metaphors, a widely used method in design thinking.
+<br/>
 <br/>
 
 ## ⚖️ Disclaimer
