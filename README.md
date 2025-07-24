@@ -30,6 +30,7 @@ In backend folder:
 
 gunicorn productmeta_backend.asgi:application -k uvicorn.workers.UvicornWorker --workers 2 --bind 0.0.0.0:8000
 ```
+<br/>
 
 ### 🌐 Setup Frontend Service
 ```
@@ -40,6 +41,7 @@ npm install
 2. Start the development server
 npm run dev
 ```
+<br/>
 
 
 ## 👀 Metaphor Demo Presentation
@@ -47,6 +49,7 @@ npm run dev
 <div align="center">
 <img src="docs/MetaphorDemoPresentation.png" alt="Metaphor Demo Presentation" >
 </div>
+<br/>
 
 
 
@@ -63,10 +66,12 @@ npm run dev
 	html = {/papers/paper1/}  
 }
 ```
+<br/>
 
 
 ## 🤝 Contributing
 Project DICE is an AI-driven creative tool designed to help designers create every day, everywhere. This project integrates core concepts of design, inspiration, and creation, providing an efficient and innovative platform for designers to explore new creative realms and enhance design quality and efficiency. Utilizing multimodal large language models, DICE generates diverse and contextually relevant design inspirations, supporting structured creative exploration. One of our key exploration paths is the use of metaphors, a widely used method in design thinking.
+<br/>
 
 ## ⚖️ Disclaimer
 Project DICE is an AI-driven creative tool designed to help designers create every day, everywhere. This project integrates core concepts of design, inspiration, and creation, providing an efficient and innovative platform for designers to explore new creative realms and enhance design quality and efficiency. Utilizing multimodal large language models, DICE generates diverse and contextually relevant design inspirations, supporting structured creative exploration. One of our key exploration paths is the use of metaphors, a widely used method in design thinking.
