@@ -16,10 +16,11 @@ Project DICE is an AI-driven creative tool designed to help designers create eve
 We introduce Metaphor, a creativity support tool that connects targets (the products being designed) with sources (inspirational concepts), combining these two components to spark new design ideas. This tool is designed to help novice designers explore and develop metaphorical product concepts, offering richer inspiration and support throughout the creative process.
 
 <h3 align="center">Metaphor: A creative thinking tool in the DICE system</h3>
+<br/>
 <div align="center">
 <img src="docs/MetaphorUI.png" alt="A creative thinking tool in the DICE system" >
 </div>
-
+<br/><br/>
 
 ## 🚀 Quick start
 
