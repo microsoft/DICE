@@ -71,9 +71,11 @@ npm run dev
 
 
 ## 🤝 Contributing
-Project DICE is an AI-driven creative tool designed to help designers create every day, everywhere. This project integrates core concepts of design, inspiration, and creation, providing an efficient and innovative platform for designers to explore new creative realms and enhance design quality and efficiency. Utilizing multimodal large language models, DICE generates diverse and contextually relevant design inspirations, supporting structured creative exploration. One of our key exploration paths is the use of metaphors, a widely used method in design thinking.
+Yu Liu, Yun Wang, Yan Xia, Yang Ou, Scarlett Li
+Collaborated with Tsinghua Future Lab and Hongkong City University
+
 <br/>
 <br/>
 
 ## ⚖️ Disclaimer
-Project DICE is an AI-driven creative tool designed to help designers create every day, everywhere. This project integrates core concepts of design, inspiration, and creation, providing an efficient and innovative platform for designers to explore new creative realms and enhance design quality and efficiency. Utilizing multimodal large language models, DICE generates diverse and contextually relevant design inspirations, supporting structured creative exploration. One of our key exploration paths is the use of metaphors, a widely used method in design thinking.
+Due to the inherent limitations of large language models, issues such as hallucinations may occur.
